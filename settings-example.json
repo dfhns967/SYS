@@ -1,30 +1,30 @@
 {
-    "owners": ["Required", "UserID", "UserID"],
-    "administrators": ["UserID", "UserID", "UserID"],
-    "token": "Required. Your Super Secret Token",
-    "prefix": "Required. Standard Prefix",
+    "owners": ["489439971044753418", "489439971044753418", "466687262659182612"],
+    "administrators": ["489439971044753418", "489439971044753418", "466687262659182612"],
+    "token": process.env.TOKEN,
+    "prefix": "@",
     "auddKey": "Audd Lyrics API Key",
     "googleKey": "Google Custom Search API Key",
-    "googlekey": "Youtube API key",
-    "clientID_Auth": "Client ID Auth",
-    "clientSecret_Auth": "Client Secret Auth",
+    "googlekey": "AIzaSyCgLBLM8Uv1xBFhnvKJ4g7paf8JSUMQVFg",
+    "clientID_Auth": "738906725255610369",
+    "clientSecret_Auth": "jpVEBt-n0sK4WGsHVAtk3S0mVpdTHkcB",
     "callbackURL_Auth": "Callback URL Auth",
-    "dbl_apikey": "Your Discord Bot List API Token",
-    "websitehostname": "Required. Example: localhost for local use",
-    "websiteport": "Required. Port of the website (For HTTPS use port 80)",
-    "keychannel": "Required. Discord Textchannel ID where all premium keys should be posted in",
+    "dbl_apikey": "af262679-9dfc-4a8a-9024-3eef08a99f38",
+    "websitehostname": "localhost",
+    "websiteport": "80",
+    "keychannel": "740311785793650781",
     "db": {
-        "user": "Required. db user",
-		"password": "Required. db password",
-		"host": "Required. db host (Example: localhost for local mongoDB)",
-		"port": "Required. db port (Example: 27017)"
+        "user": "SYS_Bot",
+		"password": "NZ2002.2020",
+		"host": "localhost",
+		"port": "27017"
     },
-    "dblAuthorization": "Autorization Code for API verification",
-    "botMainDiscordServer": "Required. The main/support Discord Server ID of this bot",
+    "dblAuthorization": "camcvcjf",
+    "botMainDiscordServer": "688033136302751900",
     "log_channels": {
-	    "logs": "channel id to log console logs to",
-	    "warnings": "channel id to log console warnings to",
-	    "errors": "channel id to log console errors to"
+	    "logs": "740311785793650781",
+	    "warnings": "740311785793650781",
+	    "errors": "740311785793650781"
     },
     "NODE_ENV": "production"
 }
