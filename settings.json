@@ -1,7 +1,6 @@
 {
     "owners": ["489439971044753418", "489439971044753418", "466687262659182612"],
     "administrators": ["489439971044753418", "489439971044753418", "466687262659182612"],
-    "token": process.env.TOKEN,
     "prefix": "@",
     "auddKey": "Audd Lyrics API Key",
     "googleKey": "Google Custom Search API Key",
