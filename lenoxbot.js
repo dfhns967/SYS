@@ -20,11 +20,6 @@ if (!settings.owners.length) {
   process.exit(42);
 }
 
-if (!settings.token) {
-  console.error('You forgot to enter your Discord super secret token! You can get this token from the following page: https://discordapp.com/developers/applications/');
-  process.exit(42);
-}
-
 if (!settings.prefix) {
   console.error('You can\'t start the bot without setting a standard prefix');
   process.exit(42);
